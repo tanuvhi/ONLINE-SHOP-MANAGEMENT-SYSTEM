@@ -11,7 +11,7 @@ namespace UltraShopBd.FrameWork
 {
     public class DataAccess
     {
-        const String connectionString = "Data Source=74.86.97.85;Initial Catalog=ultrashopbd;Persist Security Info=True;User ID=ultrashopbd_TANVIR;Password=778124tan";
+        const String connectionString = "Data Source=;Initial Catalog=ultrashopbd;Persist Security Info=True;User ID=;Password=";
         public DataTable GetData(SqlCommand cmd)
         {
 
